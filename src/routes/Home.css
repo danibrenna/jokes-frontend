@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#search-result-container {
+  width: 80%;
+}
+
+.joke-card {
+  margin-bottom: 30px;
+  text-align: justify;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+.joke-card p {
+  display: inline;
+  padding: 0 0 10px;
+  margin: 10px 0 0;
+}
+.joke-card:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: .1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
